@@ -1,0 +1,18 @@
+/*
+ * This file can be used to set variables and supply global styling.
+ *
+ * Ideally view specific CSS would go to corresponding SCSS files
+ * but there are only a few tweaks in this demo so I decided to
+ * keep them here.
+ */
+$enable-font-awesome: dynamic(true);
+
+.report-header {
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.view-report-fiscal-year-selector .x-toolbar.x-toolbar-footer {
+    background-color: transparent;
+}
