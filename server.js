@@ -53,7 +53,10 @@ getSeedData(seed_data_url, (err, data) => {
 
 const app = express();
 
-app.use(express.static('/Users/nohuhu/Sencha/RevenueReport'));
+if (process.env.SERVE_STATIC) {
+    app.use(express.static(process.env.HOME + '/RevenueReport'));
+}
+
 app.use(bodyParser.json());
 
 app.get('/revenue', (req, res) => {
