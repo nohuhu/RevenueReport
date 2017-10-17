@@ -7,7 +7,8 @@ implementation that fetches sample data and keeps it in memory.
 The client side is an universal Ext JS application combining Modern toolkit app
 for tablet devices and Classic toolkit app for desktop browsers. This application
 aims to utilize best practices and showcase data manipulation, MVVMC architecture,
-data binding, using charts and grids.
+data binding, using charts and grids, as well as unit testing parts of the app
+in both toolkits.
 
 # Installation
 
